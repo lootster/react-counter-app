@@ -3,10 +3,26 @@ import "./App.css";
 import Counter from "./Counter";
 
 class App extends Component {
+  state = {
+    names: [
+      "Xin Fang", 
+      "Brian",
+      "Calvin", 
+      "Sebestian", 
+      "sheldon", 
+      "KaiXin",
+      "Delphine",
+      "huimin",
+      "Tim",
+      "Shun"
+    ]
+  }
+
+
   render() {
     return (
       <div className="App">
-        <Counter />
+        {this.state.names.map(name => <Counter name={name}/>)}
       </div>
     );
   }

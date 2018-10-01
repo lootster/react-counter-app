@@ -1,0 +1,20 @@
+.counterContainer {
+  border: 2px solid yellow;
+  padding: 50px
+}
+
+h1 {
+  font-size: 5em;
+}
+
+.plus {
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+}
+
+.minus {
+  background-color: red;
+  color: white;
+  border-radius: 10%;
+}
